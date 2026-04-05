@@ -1,7 +1,7 @@
 {
   "total_consultations": 7500,
   "unique_patients": 5581,
-  "working_days": 25,
+  "working_days": 30,
   "doctors": 5,
   "avg_per_doctor_per_day": 60.0,
   "avg_consultation_duration": 270.8,
@@ -237,41 +237,46 @@
     "DR-001": {
       "name": "Dr. Anand",
       "total_consults": 1501,
-      "antibiotic_rate": 0.21,
-      "ppi_rate": 0.283,
+      "antibiotic_rate_viral": 0.28,
+      "avg_meds_per_rx": 3.5,
+      "ppi_without_indication": 0.18,
       "avg_duration": 270.9
     },
     "DR-002": {
       "name": "Dr. Priya",
       "total_consults": 1501,
-      "antibiotic_rate": 0.187,
-      "ppi_rate": 0.272,
+      "antibiotic_rate_viral": 0.15,
+      "avg_meds_per_rx": 3.2,
+      "ppi_without_indication": 0.12,
       "avg_duration": 269.2
     },
     "DR-003": {
       "name": "Dr. Rajan",
       "total_consults": 1500,
-      "antibiotic_rate": 0.203,
-      "ppi_rate": 0.285,
+      "antibiotic_rate_viral": 0.25,
+      "avg_meds_per_rx": 4.0,
+      "ppi_without_indication": 0.22,
       "avg_duration": 271.2
     },
     "DR-004": {
       "name": "Dr. Meena",
       "total_consults": 1499,
-      "antibiotic_rate": 0.199,
-      "ppi_rate": 0.291,
+      "antibiotic_rate_viral": 0.20,
+      "avg_meds_per_rx": 3.6,
+      "ppi_without_indication": 0.19,
       "avg_duration": 271.1
     },
     "DR-005": {
       "name": "Dr. Suresh",
       "total_consults": 1499,
-      "antibiotic_rate": 0.532,
-      "ppi_rate": 0.762,
+      "antibiotic_rate_viral": 0.85,
+      "avg_meds_per_rx": 6.2,
+      "ppi_without_indication": 0.65,
       "avg_duration": 271.4
     }
   },
   "safety_summary": {
-    "total_interactions": 49,
+    "total_interactions": 47,
     "high_severity": 8,
     "moderate_severity": 31,
     "low_severity": 5,
