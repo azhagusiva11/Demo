@@ -1,6 +1,6 @@
 {
   "total_consultations": 7500,
-  "unique_patients": 5581,
+  "unique_patients": 1925,
   "working_days": 30,
   "doctors": 5,
   "avg_per_doctor_per_day": 60.0,
@@ -11,88 +11,74 @@
     {
       "code": "I10",
       "description": "Essential Hypertension",
-      "count": 1813,
-      "percentage": 24.2
-    },
-    {
-      "code": "K21.0",
-      "description": "Gastroesophageal Reflux",
-      "count": 1799,
-      "percentage": 24.0
+      "count": 1650,
+      "percentage": 22.0
     },
     {
       "code": "E11.9",
       "description": "Type 2 Diabetes Mellitus",
-      "count": 1590,
-      "percentage": 21.2
+      "count": 1350,
+      "percentage": 18.0
     },
     {
       "code": "J06.9",
       "description": "Upper Respiratory Infection",
-      "count": 1244,
-      "percentage": 16.6
+      "count": 1050,
+      "percentage": 14.0
     },
     {
-      "code": "M54.5",
-      "description": "Low Back Pain",
-      "count": 467,
-      "percentage": 6.2
-    },
-    {
-      "code": "N39.0",
-      "description": "Urinary Tract Infection",
-      "count": 410,
-      "percentage": 5.5
+      "code": "K21.0",
+      "description": "Gastroesophageal Reflux",
+      "count": 750,
+      "percentage": 10.0
     },
     {
       "code": "D50.9",
       "description": "Iron Deficiency Anemia",
-      "count": 367,
-      "percentage": 4.9
+      "count": 600,
+      "percentage": 8.0
     },
     {
-      "code": "F32.9",
-      "description": "Major Depressive Disorder",
-      "count": 268,
-      "percentage": 3.6
+      "code": "N39.0",
+      "description": "Urinary Tract Infection",
+      "count": 450,
+      "percentage": 6.0
     },
     {
-      "code": "E55.9",
-      "description": "Vitamin D Deficiency",
-      "count": 193,
-      "percentage": 2.6
+      "code": "M54.5",
+      "description": "Low Back Pain",
+      "count": 375,
+      "percentage": 5.0
     },
     {
       "code": "M17.9",
       "description": "Osteoarthritis",
-      "count": 180,
-      "percentage": 2.4
+      "count": 300,
+      "percentage": 4.0
     },
     {
-      "code": "J45.9",
-      "description": "Asthma",
-      "count": 176,
-      "percentage": 2.3
+      "code": "F32.9",
+      "description": "Major Depressive Disorder",
+      "count": 225,
+      "percentage": 3.0
     },
     {
-      "code": "E03.9",
-      "description": "Hypothyroidism",
-      "count": 163,
-      "percentage": 2.2
-    },
-    {
-      "code": "G43.9",
-      "description": "Migraine",
-      "count": 92,
-      "percentage": 1.2
-    },
-    {
-      "code": "J30.4",
-      "description": "Allergic Rhinitis",
-      "count": 88,
-      "percentage": 1.2
+      "code": "E55.9",
+      "description": "Vitamin D Deficiency",
+      "count": 225,
+      "percentage": 3.0
     }
   ],
+  "department_avg_meds_per_rx": 3.8,
+  "department_abx_viral_uri_pct": 34.6,
+  "department_ppi_without_indication_pct": 27.2,
+  "clinical_signals": {
+    "dysuria_total": 67,
+    "dysuria_with_flank_pain": 12,
+    "dysuria_with_culture_ordered": 3,
+    "diabetic_with_numbness": 38,
+    "diabetic_numbness_no_investigation": 22
+  },
   "medication_frequency": [
     {
       "brand": "Pantocid 40",
