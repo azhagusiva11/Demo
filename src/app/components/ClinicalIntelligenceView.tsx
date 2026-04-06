@@ -3,6 +3,7 @@
 import PrescriptionSafety from './PrescriptionSafety';
 import ClinicalSignals from './ClinicalSignals';
 import PatientTimeline from './PatientTimeline';
+import ClinicalDataPreview from './ClinicalDataPreview';
 
 interface Props {
   deptAvgMeds: number;
@@ -25,6 +26,9 @@ export default function ClinicalIntelligenceView({ deptAvgMeds, deptAbxViralPct,
 
       {/* Section C: Mrs. Lakshmi Timeline */}
       <PatientTimeline />
+
+      {/* Section D: Clinical Data Preview */}
+      <ClinicalDataPreview />
     </div>
   );
 }
