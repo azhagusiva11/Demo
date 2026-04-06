@@ -18,6 +18,9 @@ export default function DepartmentSummaryBar() {
         <span className="mx-2" style={{ color: '#E5E0D8' }}>|</span>
         <span>March 2026</span>
       </p>
+      <p className="text-xs mt-1" style={{ color: '#9A938B' }}>
+        Pilot Activity: 5 doctors · avg 48 consultations/doctor/day · 26 working days
+      </p>
     </div>
   );
 }

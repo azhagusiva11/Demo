@@ -28,7 +28,9 @@ export default function ClinicalIntelligenceView({ deptAvgMeds, deptAbxViralPct,
       <PatientTimeline />
 
       {/* Section D: Clinical Data Preview */}
-      <ClinicalDataPreview />
+      <div className="mt-10">
+        <ClinicalDataPreview />
+      </div>
     </div>
   );
 }

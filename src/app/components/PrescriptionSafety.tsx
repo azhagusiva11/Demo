@@ -52,6 +52,13 @@ export default function PrescriptionSafety({ deptAvgMeds, deptAbxViralPct, deptP
         </p>
       </div>
 
+      {/* Serotonin syndrome callout */}
+      <div className="rounded-lg p-4" style={{ backgroundColor: '#FDF0F0', border: '1px solid #E8C5C5' }}>
+        <p className="text-sm" style={{ color: '#4A4540' }}>
+          <strong style={{ color: RED }}>Example:</strong> Patient on Fluoxetine 20mg for depression. Tramadol prescribed for back pain. Serotonin syndrome risk flagged. Prescription modified to Paracetamol before reaching pharmacy.
+        </p>
+      </div>
+
       {/* Interaction table */}
       <div className="bg-white rounded-lg overflow-hidden" style={{ border: '1px solid #e8e5e0' }}>
         <div className="overflow-x-auto">

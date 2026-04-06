@@ -16,14 +16,16 @@ export default function DocumentationView() {
         </div>
 
         <div className="bg-white rounded-lg p-6" style={{ border: '1px solid #e8e5e0' }}>
-          <p className="text-4xl md:text-5xl font-bold" style={{ color: GREEN }}>32s</p>
+          <p className="text-4xl md:text-5xl font-bold" style={{ color: GREEN }}>31.7s</p>
           <p className="text-sm font-semibold mt-2" style={{ color: NAVY }}>Average Note Generation</p>
-          <p className="text-xs mt-2" style={{ color: '#7A7267' }}>JAMA April 2026 (Rotenstein et al, 8,581 clinicians): AI documentation saves 16 min/day</p>
+          <p className="text-xs mt-1" style={{ color: '#9A938B' }}>Range: 22–45s across consultations</p>
+          <p className="text-xs mt-1" style={{ color: '#7A7267' }}>JAMA April 2026 (Rotenstein et al, 8,581 clinicians): AI documentation saves 16 min/day</p>
         </div>
 
         <div className="bg-white rounded-lg p-6" style={{ border: '1px solid #e8e5e0' }}>
           <p className="text-4xl md:text-5xl font-bold" style={{ color: GREEN }}>94%</p>
           <p className="text-sm font-semibold mt-2" style={{ color: NAVY }}>Documentation Completeness</p>
+          <p className="text-xs mt-1" style={{ color: '#9A938B' }}>Range: 87–99% across consultations</p>
           <p className="text-xs mt-2" style={{ color: '#7A7267' }}>Chief complaint, history, examination, diagnosis, plan — structured and coded</p>
         </div>
 
@@ -31,6 +33,15 @@ export default function DocumentationView() {
           <p className="text-4xl md:text-5xl font-bold" style={{ color: AMBER }}>55%</p>
           <p className="text-sm font-semibold mt-2" style={{ color: NAVY }}>Multilingual Consultations</p>
           <p className="text-xs mt-2" style={{ color: '#7A7267' }}>English + Tamil, Kannada, Hindi — code-switching handled natively</p>
+        </div>
+      </div>
+
+      {/* ABDM output note */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div className="bg-white rounded-lg p-5" style={{ border: '1px solid #e8e5e0' }}>
+          <p className="text-2xl font-bold" style={{ color: GREEN }}>99.2%</p>
+          <p className="text-xs font-semibold mt-1" style={{ color: NAVY }}>ABDM Structured Output</p>
+          <p className="text-xs mt-1" style={{ color: '#9A938B' }}>6 consultations required manual correction</p>
         </div>
       </div>
 
