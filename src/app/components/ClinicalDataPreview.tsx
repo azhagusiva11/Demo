@@ -74,7 +74,7 @@ export default function ClinicalDataPreview() {
           This is not searching medical knowledge. This is querying your own clinical data.
         </p>
         <p className="text-xs mt-2" style={{ color: '#9A938B' }}>
-          Every answer comes from your patients — not a textbook.
+          Every answer comes from your patients.
         </p>
       </div>
     </div>
