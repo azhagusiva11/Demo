@@ -27,7 +27,8 @@ const queries = [
 
 export default function ClinicalDataPreview() {
   return (
-    <div className="space-y-5 mt-4">
+    <div className="rounded-lg p-6" style={{ backgroundColor: '#F0EDE8', borderTop: '3px solid #B87A4B' }}>
+      <div className="space-y-5">
       {/* Header */}
       <div className="flex items-center gap-3">
         <h3 className="text-base font-bold" style={{ color: NAVY }}>Clinical Data Intelligence</h3>
@@ -76,6 +77,7 @@ export default function ClinicalDataPreview() {
         <p className="text-xs mt-2" style={{ color: '#9A938B' }}>
           Every answer comes from your patients.
         </p>
+      </div>
       </div>
     </div>
   );
