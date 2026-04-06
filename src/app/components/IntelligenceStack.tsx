@@ -37,7 +37,7 @@ const LAYERS: Layer[] = [
   },
   {
     id: 5, name: 'Clinical Reasoning Validation',
-    description: 'Validated on Fabry Disease: 88 synthetic patients, 5 GLA variants, 100% diagnostic correctness rate. Matched against 13,000 real-world registry cases.',
+    description: 'Validated on Fabry Disease: 88 synthetic patients, 5 GLA variants. Matched against 13,000 real-world registry cases.',
     status: 'PROVEN',
   },
   {
@@ -140,7 +140,7 @@ export default function IntelligenceStack() {
       {/* Fabry validation card */}
       <div className="bg-white rounded-lg p-5" style={{ border: '1px solid #e8e5e0', borderLeft: `4px solid ${AMBER}` }}>
         <p className="text-sm leading-relaxed" style={{ color: NAVY }}>
-          <strong>Engine Validation:</strong> The clinical reasoning engine was validated on rare disease before being applied to routine OPD. Fabry Disease — 88 synthetic patient trajectories generated using the same pattern classification framework (Layers 1–4). Diagnostic correctness: 100%. This is the engine behind the safety and pattern detection shown in Views 1–3.
+          <strong>Engine Validation:</strong> The clinical reasoning engine was validated on rare disease before being applied to routine OPD. Fabry Disease — 88 synthetic patient trajectories generated using the same pattern classification framework (Layers 1–4). This is the engine behind the safety and pattern detection shown in Views 1–3.
         </p>
       </div>
     </div>
